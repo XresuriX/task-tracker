@@ -1,9 +1,11 @@
 import "./styles.css";
+import Header from './components/Header'
 
-export default function App() {
+ const App = () => {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
+    <div className="container">
+      <Header />
     </div>
   );
 }
+export default App
